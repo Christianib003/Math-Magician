@@ -2,6 +2,8 @@
 
 # Math magicians app
 This is a Single Page App (SPA) of a calculator made using react.
+## Screenshot
+![image](https://user-images.githubusercontent.com/91727952/170054157-45d88f7e-46e5-4983-9e7f-336ebb2921c2.png)
 
 ## Built with
 - React.js
