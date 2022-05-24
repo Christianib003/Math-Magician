@@ -15,22 +15,11 @@
     "extends": ["airbnb", "plugin:react/recommended"],
     "plugins": ["react"],
     "rules": {
-      "react/jsx-filename-extension": ["off", { "extensions": [".js", ".jsx"] }],
+      "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
       "no-shadow": "off"
     },
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "js": "never",
-        "mjs": "never",
-        "jsx": "never",
-        "ts": "never",
-        "tsx": "never"
-      }
-    ]
     "ignorePatterns": [
       "dist/",
       "build/"
