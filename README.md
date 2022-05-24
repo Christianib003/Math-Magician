@@ -15,7 +15,7 @@ This is a Single Page App (SPA) of a calculator made using react.
 This project was bootstrapped with CRA. Click this link to get started [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 
 ## installation
-In order to run This project on your local device, follow the folloeing steps:
+In order to run This project on your local device, follow the following steps:
 
 - `git clone https://github.com/Christianib003/Math-Magician.git`
 - `cd Math-Magician`
