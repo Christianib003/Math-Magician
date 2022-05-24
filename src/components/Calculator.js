@@ -7,9 +7,9 @@ class Calculator extends React.Component {
     return (
       <>
         <div className="container">
-          <form>
-            <input type="text" />
-          </form>
+          <div>
+            <div className="workArea">0</div>
+          </div>
           <div className="keypad">
             <button type="submit" className="clear num">AC</button>
             <button type="submit" className="ad num">+/-</button>

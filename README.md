@@ -58,9 +58,13 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
 
+## License
+This project is MIT Licensed.
+
 ## Show your support
 Give a :star:️ if you like this project!
 
-## Acknowledgments
+If you have any suggestion, reach out through [issues](https://github.com/Christianib003/Math-Magician/issues).
 
+## Acknowledgments
 Math magicians app
