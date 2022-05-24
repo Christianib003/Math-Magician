@@ -20,6 +20,17 @@
       "import/no-unresolved": "off",
       "no-shadow": "off"
     },
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "mjs": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
     "ignorePatterns": [
       "dist/",
       "build/"
