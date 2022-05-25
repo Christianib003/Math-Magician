@@ -2,18 +2,16 @@
   margin: 0;
 }
 
-.workArea {
-  max-width: 399px;
-  height: 60px;
+.input_field {
+  width: 400px;
   background-color: #858694;
   border: none;
-  padding: 25px  10px 0 375px;
-  font-size: 35px;
-  color: white;
-}
-
-.contents {
-  background-color: red;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0 15px 0;
+  min-height: 20px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .container {
