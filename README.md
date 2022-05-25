@@ -2,6 +2,9 @@
 
 # Math magicians app
 This is a Single Page App (SPA) of a calculator made using react.
+## Screenshot
+![image](https://user-images.githubusercontent.com/91727952/170218823-9ac553e5-c2b3-4ac4-ab89-1fce6a211d58.png)
+
 
 ## Built with
 - React.js
@@ -15,7 +18,7 @@ This is a Single Page App (SPA) of a calculator made using react.
 This project was bootstrapped with CRA. Click this link to get started [Create React App](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app).
 
 ## installation
-In order to run This project on your local device, follow the folloeing steps:
+In order to run This project on your local device, follow the following steps:
 
 - `git clone https://github.com/Christianib003/Math-Magician.git`
 - `cd Math-Magician`
@@ -56,9 +59,13 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ## :handshake: Contributing
 Contributions, issues, and feature requests are welcome!
 
+## License
+This project is MIT Licensed.
+
 ## Show your support
 Give a :star:️ if you like this project!
 
-## Acknowledgments
+If you have any suggestion, reach out through [issues](https://github.com/Christianib003/Math-Magician/issues).
 
+## Acknowledgments
 Math magicians app
