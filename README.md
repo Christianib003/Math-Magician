@@ -3,7 +3,8 @@
 # Math magicians app
 This is a Single Page App (SPA) of a calculator made using react.
 ## Screenshot
-![image](https://user-images.githubusercontent.com/91727952/170218823-9ac553e5-c2b3-4ac4-ab89-1fce6a211d58.png)
+![image](https://user-images.githubusercontent.com/91727952/170235972-8b6e98b1-b661-45b3-9594-5d4c9ee55d6e.png)
+
 
 
 ## Built with
