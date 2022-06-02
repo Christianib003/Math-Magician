@@ -4,16 +4,17 @@ const Quotes = () => (
   <>
     <div className="quotes">
       <p className="qtext">
-        1. “The purpose of our lives is to be happy.” —
-        <span> Dalai Lama</span>
+        1. “All our dreams can come true if we have the courage to pursue them.”
+        <span>Walt Disney</span>
       </p>
       <p className="qtext">
-        2. “Get busy living or get busy dying.” —
-        <span> Stephen King</span>
+        2. “If you hear a voice within you say
+        ‘you cannot paint,’ then by all means paint and that voice will be silenced.”
+        <span>Vincent Van Gogh</span>
       </p>
       <p className="qtext">
-        3. “You only live once, but if you do it right, once is enough.” —
-        <span> Mae West</span>
+        3. “It does not matter how slowly you go, so long as you do not stop.”
+        <span>Confucius</span>
       </p>
     </div>
   </>
