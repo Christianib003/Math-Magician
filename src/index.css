@@ -4,25 +4,25 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #79018c;
+  color: #fff;
+}
+
 .navBar {
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-between;
-  box-shadow: 1px 5px 10px #858694;
+  box-shadow: 1px 5px 10px #160040;
   padding: 15px;
-}
-
-.title {
-  font-size: 25px;
-  margin: 0 0 18px 0;
+  background-color: #9a0680;
 }
 
 .header {
-  color: #000;
   font-size: 2em;
   text-decoration: dotted;
-  margin-bottom: -20px;
+  color: #fff;
 }
 
 .navItems {
@@ -39,31 +39,10 @@
   list-style-type: none;
 }
 
-.homeLink {
-  color: #000;
-  text-decoration: none;
-}
-
-.homeLink:hover {
-  text-decoration: underline;
-}
-
-.calculatorLink {
-  color: #000;
-  text-decoration: none;
-}
-
-.calculatorLink:hover {
-  text-decoration: underline;
-}
-
+.homeLink,
+.calculatorLink,
 .quotesLink {
-  color: #000;
-  text-decoration: none;
-}
-
-.quotesLink:hover {
-  text-decoration: underline;
+  color: #fff;
 }
 
 .welcome {
@@ -96,8 +75,7 @@
 .welcome h2 {
   font-size: 40px;
   text-transform: capitalize;
-  text-align: start;
-  margin: 0 0 0 1%;
+  text-align: center;
 }
 
 .text {
@@ -107,8 +85,7 @@
 
 .input_field {
   width: 400px;
-  background-color: #858694;
-  border: none;
+  background-color: #160040;
   display: flex;
   justify-content: flex-end;
   padding: 15px 0 15px 0;
@@ -133,12 +110,24 @@
   padding: 1px;
 }
 
+button.clear.num {
+  background-color: #9a0680;
+}
+
+button.ad.num {
+  background-color: #9a0680;
+}
+
+button.modulo.num {
+  background-color: #9a0680;
+}
+
 .left {
   top: 30%;
   left: 25%;
   position: absolute;
   transform: translate(-50%, -50%);
-  font-size: 30px;
+  font-size: 25px;
   text-transform: capitalize;
 }
 
@@ -154,8 +143,8 @@
 }
 
 .operator {
-  background-color: rgb(223, 152, 20);
   padding: 15px;
+  background-color: #9a0680;
 }
 
 .num {
@@ -171,7 +160,78 @@
 }
 
 .keypad button:hover {
-  opacity: 0.7;
+  opacity: 0.9;
   color: #000;
   font-size: 26px;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: 1px 5px 10px #160040;
+    padding: 15px;
+    background-color: #9a0680;
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .navMenu li {
+    font-size: 17px;
+  }
+
+  .homeLink,
+  .calculatorLink,
+  .quotesLink {
+    color: #fff;
+  }
+
+  .left h2 {
+    display: none;
+  }
+
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 350px;
+    height: 30vh;
+  }
+
+  .input_field {
+    width: 350px;
+    background-color: #160040;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0 15px 0;
+    color: #fff;
+    font-size: 26px;
+  }
+
+  .operator {
+    background-color: #9a0680;
+    padding: 15px;
+    color: #fff;
+  }
+
+  .clear,
+  .ad,
+  .modulo {
+    background-color: #9a0680;
+  }
+
+  .container {
+    display: flex;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 350px;
+  }
 }
