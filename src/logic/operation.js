@@ -16,7 +16,6 @@ export default function operate(numberOne, numberTwo, operation) {
     try {
       return one.div(two).toString();
     } catch (err) {
-
       return null;
     }
   }
