@@ -43,4 +43,33 @@ describe('if calculator works properly', () => {
     const { total } = calculate(obj, '=');
     expect(total).toBe('8');
   });
+
+  it('Tests modulus operation', () => {
+    obj = {
+      total: '5',
+      next: '2',
+      operation: '%',
+    };
+
+    const { total } = calculate(obj, '=');
+    expect(total).toBe('1');
+  });
+  it('If button is AC do we return an object', () => {
+    expect(calculate(7, 'AC')).toEqual({
+      total: null,
+      next: null,
+      operation: null,
+    });
+  });
+
+  it('Tests +- button', () => {
+    obj = {
+      total: '1',
+      next: '5',
+      operation: '-',
+    };
+
+    const { next } = calculate(obj, '+/-');
+    expect(next).toBe('-5');
+  });
 });

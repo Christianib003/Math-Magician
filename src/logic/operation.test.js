@@ -17,4 +17,8 @@ describe('checking if operations work properly', () => {
     const result = operate('2', '2', 'x');
     expect(result).toBe('4');
   });
+  test('test error for Cant divide by 0', () => {
+    const result = operate('2', '0', '÷');
+    expect(result).toBe("Can't divide by 0.");
+  });
 });
