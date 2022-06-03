@@ -43,33 +43,22 @@ describe('if calculator works properly', () => {
     const { total } = calculate(obj, '=');
     expect(total).toBe('8');
   });
-
-  it('Tests modulus operation', () => {
+  it('It should return 20. as next if the button name is.', () => {
     obj = {
-      total: '5',
-      next: '2',
-      operation: '%',
+      total: '20',
+      next: '20.',
+      operation: '.',
     };
-
-    const { total } = calculate(obj, '=');
-    expect(total).toBe('1');
+    const { next } = calculate(obj, '.');
+    expect(next).toBe('20.');
   });
-  it('If button is AC do we return an object', () => {
-    expect(calculate(7, 'AC')).toEqual({
-      total: null,
-      next: null,
-      operation: null,
-    });
-  });
-
-  it('Tests +- button', () => {
+  it('It should not calculate if the second operand doesnt exist.', () => {
     obj = {
-      total: '1',
-      next: '5',
+      total: '4',
+      next: null,
       operation: '-',
     };
-
-    const { next } = calculate(obj, '+/-');
-    expect(next).toBe('-5');
+    const { total } = calculate(obj, '=');
+    expect(total).toBe(undefined);
   });
 });
