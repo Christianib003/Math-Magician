@@ -21,4 +21,7 @@ describe('checking if operations work properly', () => {
     const result = operate('2', '0', '÷');
     expect(result).toBe("Can't divide by 0.");
   });
+  test('test % operator leaves modulus of two numbers', () => {
+    expect(operate('16', '2', '%')).toEqual('0');
+  });
 });
